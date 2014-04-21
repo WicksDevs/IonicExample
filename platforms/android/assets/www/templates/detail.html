@@ -1,0 +1,11 @@
+<ion-content>
+	<div class="item item-image">
+		<img ng-src="{{channel.img}}">
+	</div>
+	<div class="item">
+		<a class="item item-icon-left" ng-click="play(channel.stream)">
+			<i ng-class="audioClass"></i>
+			<h3 style="text-align:left; border:none">Listen {{channel.name}}</h3>
+		</a>
+	</div>
+</ion-content>

@@ -1,0 +1,17 @@
+  <!--Main content-->
+<ion-content>
+  <div class="list card" style="border:none" ng-repeat="channel in channels">
+    <div class="item" style="border:none;">
+      <h2> {{channel.name}}</h2>
+      <h4>{{channel.id}}</h4>
+    </div>
+    <div class="item item-image" style="border:none;">
+      <img ng-src="{{channel.image}}">
+    </div>
+    <a class="item item-icon-left" href="#/music/{{channel.id}}" >
+      <i class="icon ion-music-note"></i>
+      <h3 style="text-align:left">Start listening</h3>
+    </a>
+  </div>
+  <br>
+</ion-content>

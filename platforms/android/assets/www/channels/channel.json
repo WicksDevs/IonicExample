@@ -1,0 +1,14 @@
+[
+	{
+		"id":"1",
+		"name":"Channel 1",
+		"description":"channel 1",
+		"image":"http://cdn.strictlyrandl.com/wp-content/uploads/2012/10/The-Resistance.jpg"
+	},
+	{
+		"id":"2",
+		"name":"Channel 2",
+		"description":"channel 2",
+		"image":"http://www.microcuts.net/gallery/data/media/82/muse_2.jpg"
+	}
+]
